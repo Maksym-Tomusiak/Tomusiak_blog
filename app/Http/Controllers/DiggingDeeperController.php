@@ -99,9 +99,9 @@ class DiggingDeeperController extends Controller
         //dd ($newItem, $newItem2);
 
         //Додаємо елемент в початок/кінець колекції
-        $newItemFirst = $collection->prepend($newItem)->first(); //додали в початок
-        $newItemLast = $collection->push($newItem2)->last(); //додали в кінець
-        $pulledItem = $collection->pull(1); //забрали з першим ключем
+        //$newItemFirst = $collection->prepend($newItem)->first(); //додали в початок
+        //$newItemLast = $collection->push($newItem2)->last(); //додали в кінець
+        //$pulledItem = $collection->pull(1); //забрали з першим ключем
 
         //dd(compact('collection', 'newItemFirst' , 'newItemLast', 'pulledItem'));
 
